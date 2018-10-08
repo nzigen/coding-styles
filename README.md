@@ -43,13 +43,16 @@ index = 0
 ```
 
 ## 関数・メソッド名は動詞を使う
+関数やメソッド名は、動詞の原形を使います。
 
 ```
 # NG
 initialization()
+making_article()
 
 # OK
 initialize()
+make_article()
 ```
 
 ## bool値の命名
