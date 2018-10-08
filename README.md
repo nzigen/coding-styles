@@ -38,6 +38,21 @@ initialization()
 initialize()
 ```
 
+## bool値の命名
+慣習的に書かれているものを除き、基本的に bool 値 (true / false) は、ハンガリアン記法を使います。
+
+```
+# NG
+editable
+recommended
+
+# OK
+is_editable
+is_recommended
+should_be_logged_in
+can_edit
+```
+
 ## 単数形と複数形は明確に
 単数・複数は明確に区別します。 `List` (配列、リスト) や `Set` (集合) や、 `Map` (辞書、辞書型配列) は、複数形で記述してください。
 
