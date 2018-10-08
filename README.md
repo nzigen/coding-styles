@@ -16,3 +16,27 @@ kizis
 article
 articles
 ```
+
+### 省略は使わない
+命名に省略形を使わないでください。
+
+```
+# NG
+artcl
+art
+init
+
+# OK
+article
+initialize
+```
+
+### 関数・メソッド名は動詞を使う
+
+```
+# NG
+initialization()
+
+# OK
+initialize()
+```
