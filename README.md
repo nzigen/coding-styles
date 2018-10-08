@@ -10,11 +10,9 @@
 # NG
 kiji
 kizi
-kizis
 
 # OK
 article
-articles
 ```
 
 ### 省略は使わない
@@ -39,4 +37,24 @@ initialization()
 
 # OK
 initialize()
+```
+
+## 単数形と複数形は明確に
+単数・複数は明確に区別します。 `List` (配列、リスト) や `Set` (集合) や、 `Map` (辞書、辞書型配列) は、複数形で記述してください。
+
+また、一覧画面も、複数形を命名として使います。
+
+
+```
+# NG
+user_list
+userList
+UserList
+UserListPage
+
+# OK
+users_list
+usersList
+UsersList
+UsersListPage
 ```
