@@ -67,7 +67,7 @@ UserList
 UserListPage
 
 # OK
-users_list
+users_list (または単に、 users)
 usersList
 UsersList
 UsersListPage
