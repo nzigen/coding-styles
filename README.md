@@ -76,6 +76,24 @@ UsersList
 UsersListPage
 ```
 
+## 意味が伝わらない単語
+
+意味 (セマンティック, semantic) の伝わらない単語は避ける。
+
+```
+# NG
+data
+information
+content  # article.content (記事内容) などの場合は例外
+
+# OK
+body  # 本文という意味
+detail  # 詳細という意味
+response  # 応答という意味
+payload  # 余計な情報を取り除いた後の、使いやすい形のデータ
+article  # クラスがわかっているとき (この場合は Article) は、そのクラス名を素直に入れる
+```
+
 ## キャメルケースとスネークケース、ハイフンつなぎ
 基本的に、各言語の慣習や有名なコーディング規約に準じます。
 
