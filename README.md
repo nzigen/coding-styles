@@ -51,6 +51,9 @@ is_editable
 is_recommended
 should_be_logged_in
 can_edit
+
+# ただし、フレームワークなどの慣習で上記じゃない場合もある
+primary
 ```
 
 ## 単数形と複数形は明確に
