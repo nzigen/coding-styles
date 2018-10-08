@@ -57,3 +57,24 @@ usersList
 UsersList
 UsersListPage
 ```
+
+## キャメルケースとスネークケース、ハイフンつなぎ
+基本的に、各言語の慣習や有名なコーディング規約に準じます。
+
+CSS に関しては、次のようになります。
+
+### CSSはハイフンつなぎ
+
+```css
+# NG
+.user_profile
+.UserDetail
+.userIcon
+
+# OK
+.user-profile
+.user-detail
+.user-icon
+```
+
+過去のエヌ次元のプロダクトは、キャメルケースを使っていたこともあるので、その場合は例外とします。
