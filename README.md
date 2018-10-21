@@ -40,7 +40,8 @@ j = 1
 # OK
 article = Article()
 index = 0
-
+row
+column
 ```
 
 ## 関数・メソッド名は動詞を使う
